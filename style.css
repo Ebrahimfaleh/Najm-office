@@ -346,3 +346,19 @@ background:#25D366;
     justify-content: center; /* Center horizontally */
 }
 
+@media (max-width: 768px) {
+    /* تطبيق هذه الأنماط عندما يكون عرض الشاشة أقل من أو يساوي 768 بكسل (للأجهزة اللوحية) */
+    .container {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* تطبيق هذه الأنماط عندما يكون عرض الشاشة أقل من أو يساوي 480 بكسل (للهواتف الذكية) */
+    .container {
+      width: 100%;
+    }
+    .nav {
+      display: none;
+    }
+  }
