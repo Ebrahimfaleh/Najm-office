@@ -76,30 +76,29 @@ nav a {
 }
 /* Hero section styling */
 .hero {
-    background-image: url('Hero.jpg'); /* استبدل بالمسار الفعلي للصورة */
-    background-size: cover; /* لتغطية الخلفية بالكامل */
-    background-position: center; /* لتركيز الصورة */
-    color:black; /* لون النص أبيض ليتباين مع الخلفية */
-    text-align: center; /* توسيط النص */
-    padding: 70px 0; /* إضافة مساحة داخلية لتوسيط النص عموديًا */
-  }
-  
-  .container {
-    max-width: 800px; /* تحديد عرض الحاوية */
-    margin: 0 auto; /* توسيط الحاوية أفقيًا */
-  }
-  
-  h2 {
-    font-size: 3em; /* حجم الخط للعنوان */
-    margin-bottom: 20px; /* مسافة أسفل العنوان */
-  }
-  
-  .gold {
-    color: gold;
-    font-size: 2em;
-    font-weight: bold;
-  }
+  background-image: url('Hero.jpg'); /* استبدل بالمسار الفعلي للصورة */
+  background-size: cover; /* لتغطية الخلفية بالكامل */
+  background-position: center; /* لتركيز الصورة */
+  color: white; /* لون النص أبيض ليتباين مع الخلفية */
+  text-align: center; /* توسيط النص */
+  padding: 100px 0; /* إضافة مساحة داخلية لتوسيط النص عموديًا */
+}
 
+.container {
+  max-width: 800px; /* تحديد عرض الحاوية */
+  margin: 0 auto; /* توسيط الحاوية أفقيًا */
+}
+
+h2 {
+  font-size: 3em; /* حجم الخط للعنوان */
+  margin-bottom: 20px; /* مسافة أسفل العنوان */
+}
+
+.gold {
+  color: gold;
+  font-size: 2em;
+  font-weight: bold;
+}
 /* Services section styling */
 .services {
     padding: 50px 0;
