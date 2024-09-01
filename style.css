@@ -72,22 +72,15 @@ nav a {
 
 /* Hero section styling */
 .hero {
-    background-image: url('img/Cover.jpg');
-    background-size:cover;
-    background-position: center;
-    color: #1d1c1c;
-    text-align: center;
-    padding: 40px 0;
-}
+    background-image: url('img/Hero.jpg'); /* استبدل بالمسار الفعلي للصورة */
+    background-size: cover; /* لتغطية الخلفية بالكامل */
+    background-position: center; /* لتركيز الصورة */
+    color:black; /* لون النص أبيض ليتباين مع الخلفية */
+    text-align: center; /* توسيط النص */
+    padding: 50px 0; /* إضافة مساحة داخلية لتوسيط النص عموديًا */
+  }
 
-/* Hero section styling */
-.hero h2 {
-    padding-top: 100px;
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #000000; /* لون أزرق داكن للعناوين في قسم Hero */
-    font-family: 'Tajawal', serif; /* خط Serif كلاسيكي */
-}
+
 
 
 /* Services section styling */
