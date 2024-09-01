@@ -72,7 +72,7 @@ nav a {
 
 /* Hero section styling */
 .hero {
-    background-image: url('img/Hero.jpg'); /* استبدل بالمسار الفعلي للصورة */
+    background-image: url('Hero.jpg'); /* استبدل بالمسار الفعلي للصورة */
     background-size: cover; /* لتغطية الخلفية بالكامل */
     background-position: center; /* لتركيز الصورة */
     color:black; /* لون النص أبيض ليتباين مع الخلفية */
