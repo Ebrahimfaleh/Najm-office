@@ -12,7 +12,6 @@ body {
     justify-content: space-between; /* توزيع العناصر بالتساوي مع مسافات بينها */
     max-width: 1200px; 
     margin: 0 auto; 
-    background: linear-gradient(to bottom, white, yellow); /* التدرج اللوني من الأبيض إلى الأصفر */
 
 }
 .container {
@@ -78,12 +77,12 @@ nav a {
 }
 /* Hero section styling */
 .hero {
-  background-image: url("Hero.jpg"); /* استبدل بالمسار الفعلي للصورة */
-  background-size: cover; /* لتغطية الخلفية بالكامل */
-  background-position: center; /* لتركيز الصورة */
-  color: black; /* لون النص أبيض ليتباين مع الخلفية */
-  text-align: center; /* توسيط النص */
-  padding: 100px 0; /* إضافة مساحة داخلية لتوسيط النص عموديًا */
+    background: linear-gradient(to bottom, white, yellow); /* التدرج اللوني من الأبيض إلى الأصفر */
+    background-size: cover; /* لتغطية الخلفية بالكامل */
+    color: black; /* لون النص في رأس الصفحة */
+    padding: 20px; /* مساحة داخلية */
+    text-align: center; /* محاذاة النص في المنتصف */
+    padding: 100px 0; /* إضافة مساحة داخلية لتوسيط النص عموديًا */
 }
 
 .container {
