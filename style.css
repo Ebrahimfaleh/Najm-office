@@ -81,10 +81,13 @@ nav{
     backgorund: white;
 }
 /* Hero section styling */
+
 .hero {
+    /*
     background: linear-gradient(to bottom, white, yellow); /* التدرج اللوني من الأبيض إلى الأصفر */
     background-size: cover; /* لتغطية الخلفية بالكامل */
     color: black; /* لون النص في رأس الصفحة */
+    */
     padding: 20px; /* مساحة داخلية */
     text-align: center; /* محاذاة النص في المنتصف */
     padding: 100px 0; /* إضافة مساحة داخلية لتوسيط النص عموديًا */
