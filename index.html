@@ -142,6 +142,17 @@
     <div id="content">
         </div>
 
-    <script src="script.js"></script> 
+    <script src="script.js">
+        // Simulate content loading (replace with your actual logic)
+window.addEventListener('load', () => {
+    const loader = document.getElementById('loader');
+    const content = document.getElementById('content');
+
+    setTimeout(() => {
+        loader.style.display = 'none';
+        content.style.display = 'block';
+    }, 2000); // Hide loader after 2 seconds
+});
+    </script> 
 </body>
 </html>
