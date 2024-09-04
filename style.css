@@ -134,15 +134,15 @@ h2 {
 }
 
 .service:nth-child(1) { /* القانون الجنائي */
-    background-color: #f0f5f9; /* لون أزرق فاتح هادئ */
+    background-color: #ceb31c; /* لون أخضر فاتح هادئ */
 }
 
 .service:nth-child(2) { /* القانون المدني */
-    background-color: #f9f0f5; /* لون وردي فاتح هادئ */
+    background-color: #ceb31c; /* لون أخضر فاتح هادئ */
 }
 
 .service:nth-child(3) { /* قانون الأسرة */
-    background-color: #f5f9f0; /* لون أخضر فاتح هادئ */
+    background-color: #ceb31c; /* لون أخضر فاتح هادئ */
 }
 
 .service:hover {
