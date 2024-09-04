@@ -121,19 +121,13 @@
         </div>
     </footer>
 
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbx07jGCOshzs7Zn-jDqu4RhPFvLeOAbPLxwwObs_cwtIH25x7b8nikq7F1Hm-oBchKHbA/exec'; // استبدل بـ URL الذي نسخته
-        
-        const form = document.querySelector('form');
-        
-        form.addEventListener('submit', e => {
-         e.preventDefault();
-         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-           .then(response => console.log('Success!', response))
-           .catch(error => console.error('Error!', error.message)) 
-        
-        });
-        </script>
+  <div id="loader">
+        <img src="your-logo.png" alt="Your Logo"> 
+        <div class="spinner"></div> 
+    </div>
+
+    <div id="content">
+        </div>
 
     <script src="script.js">
         // Simulate content loading (replace with your actual logic)
