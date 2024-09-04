@@ -145,6 +145,17 @@ h2 {
     background-color: #ceb31c; /* لون أخضر فاتح هادئ */
 }
 
+.service:nth-child(4) { /* قانون الأسرة */
+    background-color: #ceb31c; /* لون أخضر فاتح هادئ */
+}
+
+.service:nth-child(5) { /* قانون الأسرة */
+    background-color: #ceb31c; /* لون أخضر فاتح هادئ */
+}
+
+.service:nth-child(6) { /* قانون الأسرة */
+    background-color: #ceb31c; /* لون أخضر فاتح هادئ */
+}
 .service:hover {
     transform: translateY(-5px); 
 }
